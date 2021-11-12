@@ -18,9 +18,32 @@ function generatePassword() {
 
   // if player picks "ok" confirm and go to next question
   var userLower = confirm ("Would you like to include lower case characters in your password?");
+  if (userLower === true) {
+    alert("You have chosen to include lower case letters in your password.");
+  } else {
+    alert("You have chosen to NOT include lower case letters in your password.");
+  }
+
   var userUpper = confirm ("Would you like to include upper case characters in your password?");
+  if (userUpper === true) {
+    alert("You have chosen to include upper case letters in your password.");
+  } else {
+    alert("You have chosen to NOT include upper case letters in your password.");
+  }
+
   var userSpecial = confirm ("Would you like to include special characters in your password?");
+  if (userSpecial === true) {
+    alert("You have chosen to include special characters in your password.");
+  } else {
+    alert("You have chosen to NOT include special characters in your password.");
+  }
+
   var userNumber = confirm ("Would you like to include numbers in your password?");
+  if (userNumber === true) {
+    alert("You have chosen to include numbers in your password.");
+  } else {
+    alert("You have chosen to NOT include numbers in your password.");
+  }
   
   var password = [];
 
