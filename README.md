@@ -9,7 +9,7 @@ Provide a short description explaining the what, why, and how of your project. U
 ## Installation
 What are the steps required to install your project? No installation required. Code is available to download by going to gitub.com/lnguyen87/generate-password in your web browser. 
 ## Usage
-    ![screenshot preview](./assets/images/screenshot-preview.jpg)
+    ![screenshot preview](assets/images/screenshot-preview.jpg)
 
 Instructions:
     -user inputs a number between 8-128 for the length of their password.
@@ -19,7 +19,7 @@ Instructions:
         -if user does not select any criteria, a message will pop-up saying they need to choose at least one variable and rerun
 
 
-    ![video preview](./assets/images/video-preview.gif)
+    ![video preview](assets/images/video-preview.gif)
     ```
 ## Credits
 Worked as a group during office hours with Scott Nichols and Steven Cruz to define variables and concatenate.
